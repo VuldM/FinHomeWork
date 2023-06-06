@@ -39,6 +39,5 @@ string[] NewTextArray(string[] txtArr)
 }
 
 string[] textArray = CreateTextArray(5);
-
 string[] newTextArray = NewTextArray(textArray);
 Console.WriteLine($"[{string.Join(", ", textArray)}] -> [{string.Join(", ", newTextArray)}]");
