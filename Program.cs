@@ -18,8 +18,6 @@ string[] CreateTextArray(int size)
     }
     return textArr;
 }
-
-
 string[] NewTextArray(string[] txtArr)
 {
     int newSize = 0;
